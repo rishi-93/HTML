@@ -1,0 +1,33 @@
+#d1{
+    background-color: cadetblue;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    margin-bottom:  10px;
+    float: left;
+    text-align: center;
+    text-decoration:overline;
+}
+#d2{
+    background-color: coral;
+    width:auto;
+    height: 200px;
+    float:left;
+    padding: 20px;
+    color: darkblue;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(184, 37, 37);
+    
+}
+#s1{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: large;
+    
+}
+#d3{
+    background-color:blue;
+    width: 30px;
+    height: 20px;
+    
+}

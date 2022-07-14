@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>registrationform</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <P>A registration form is a list of fields that a user will 
+        input data into and submit to a company or individual. 
+        There are many reasons why you would want a person to fill out a registration form. 
+        Companies use registration forms to sign up customers for subscriptions,
+         services, or other programs or plans.</P>
+         <OL>
+           <b></b> <li>all the field should be filled in capital letters</li>
+            <li>password should contain min 8 charactors</li>
+            <li>the password should contain atleast 1 number</li>
+            <li>the address should contain pincode</li>
+         </OL><hr><br>
+
+
+         <form action="https://google.com">
+
+         <label for="fname">FIRST NAME</label>
+         <input type="text" id="fname" name="fname"><br><br>
+         <label for="mname">MIDDLE NAME</label>
+         <input type="text" id="mname" name="mname"><br><br>
+         <label for="lname">LAST NAME</label>
+         <input type="text" id="lname" name="lname"><br><br>
+         <label for="address" >ADDRESS</label>
+         <textarea rows="5" cols="30"  ></textarea> <br><br>
+         
+         <label for="phone">PHONE NUMBER</label>
+         <input type="number" id="phone" name="phone"><br><br>
+
+         <label for="dob">DOB</label>
+         <input type="date" id="dob" name="dob"><BR><BR>
+         
+         GENDER :
+         <input type="radio" id="male" name="male" value="male">
+         <label for="male">MALE</label>
+         <input type="radio" id="female" name="female" value="female">
+         <label for="female">FEMALE</label><br><br>
+        
+
+
+         <lable for="time">SELECT THE TIME :</lable>
+        <select id="time" name="time" >
+            <option value="choose">choose...</option>
+            <option value="9 to 11">9 am to 11 am</option>
+            <option value="11 to 1">11 am to 1 pm</option>
+            <option value="1 to 3">1 amto 3 pm</option>
+
+        </select><BR><BR>
+            <label for="batch"  >BATCH NAME </label>
+            <input value="MEARN STACK">
+            <br><br>
+
+
+            <table border="2px" solid >
+                <tr>
+                    <th>course</th>
+                    <th>fees</th>
+                </tr>
+
+                <tr>
+                    <td>mearn</td>
+                    <td>25000/-</td>
+                </tr>
+                <tr>
+                    <td>python</td>
+                    <td>18000/-</td>
+                </tr>
+                <tr>
+                    <td>big date</td>
+                    <td>28000/-</td>
+                </tr>
+
+            </table><br><br>
+          
+           <input type="submit" value="SUBMIT" id="submit">
+            <input type="reset" value="RESET" id="reset">
+        
+         </form>  <br><br>  
+         
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+
+    background: rgb(81,38,214);
+background: radial-gradient(circle, rgba(81,38,214,1) 0%, rgba(88,13,104,1) 100%);
+font-family: 'Secular One', sans-serif;
+    
+
+}
+
+
+.h1{
+    background-color: #e0d1ec;
+    width: 400px;
+    height: 50px;
+    display: flex ;
+    justify-content:center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'Secular One', sans-serif;
+font-weight: bold;
+color: #330956;
+    
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1b6e6;
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30%;
+    padding-top: 40px;
+}
+button{
+margin-left: 35%;
+border-radius: 5px;
+border: 0px solid;
+padding: 5px;
+width: 30%;
+background-color:#9549d6;
+font-family: 'Secular One', sans-serif;
+font-weight: bold;
+color: #330956;
+transition: .1s ease-in;
+cursor: pointer;
+}
+button:hover,button:active{
+    background-color:#b27edd;
+    font-size: 100%;
+}
+input,select {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+select{
+    background-color: #9549d6;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 15px;
+    width: 175px;
+    transition: .2s ease-in-out;
+}
+select:hover,button:active{
+    background-color:#b27edd;
+    font-size: 90%;}
+#email{
+    width: 345px;
+}
+.gender{
+    margin-left: 75px;
+
+}
